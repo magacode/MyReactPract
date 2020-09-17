@@ -1,5 +1,5 @@
 import React from "react";
-
+import Counter from "./counter";
 import "./styles.css";
 
 export default function App() {
@@ -7,6 +7,7 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
+      <Counter />
     </div>
   );
 }
